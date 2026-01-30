@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - LearnHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container flex items-center justify-between">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><ion-icon name="school"></ion-icon></div>
+                LearnHub
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="flex gap-4 items-center">
+                <a href="login.html" class="btn btn-outline" style="border:none; color:var(--text-main);">Login</a>
+                <a href="register.html" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main style="padding: 4rem 0; flex: 1;">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 4rem;">
+                <h1 style="font-size: 3rem; font-weight: 800; margin-bottom: 1rem;">Get in <span class="text-highlight">Touch</span></h1>
+                <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto; font-size: 1.125rem;">Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            </div>
+
+            <!-- Contact Information Grid -->
+             <div style="display: grid; grid-template-columns: 1fr; gap: 2rem; margin-bottom: 3rem;">
+                <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: var(--shadow-sm); display: flex; align-items: start; gap: 1rem;">
+                    <div style="width: 40px; height: 40px; background: #EEF2FF; color: var(--primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0;">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 700; font-size: 1rem; margin-bottom: 0.25rem;">Email Us</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.25rem;">support@learnhub.com</p>
+                        <p style="color: var(--text-muted); font-size: 0.8rem;">We'll respond within 24 hours</p>
+                    </div>
+                </div>
+
+                 <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: var(--shadow-sm); display: flex; align-items: start; gap: 1rem;">
+                    <div style="width: 40px; height: 40px; background: #EEF2FF; color: var(--primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0;">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 700; font-size: 1rem; margin-bottom: 0.25rem;">Call Us</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.25rem;">+1 (555) 123-4567</p>
+                        <p style="color: var(--text-muted); font-size: 0.8rem;">Mon-Fri from 9am to 6pm</p>
+                    </div>
+                </div>
+
+                 <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: var(--shadow-sm); display: flex; align-items: start; gap: 1rem;">
+                    <div style="width: 40px; height: 40px; background: #EEF2FF; color: var(--primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0;">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 700; font-size: 1rem; margin-bottom: 0.25rem;">Visit Us</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.25rem;">123 Learning Street</p>
+                        <p style="color: var(--text-muted); font-size: 0.8rem;">Education City, EC 12345</p>
+                    </div>
+                </div>
+                 
+                 <div style="background: white; border-radius: 12px; padding: 1.5rem; box-shadow: var(--shadow-sm); display: flex; align-items: start; gap: 1rem;">
+                    <div style="width: 40px; height: 40px; background: #EEF2FF; color: var(--primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; flex-shrink: 0;">
+                        <ion-icon name="time-outline"></ion-icon>
+                    </div>
+                    <div>
+                        <h3 style="font-weight: 700; font-size: 1rem; margin-bottom: 0.25rem;">Business Hours</h3>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.25rem;">Mon - Fri: 9am - 6pm</p>
+                        <p style="color: var(--text-muted); font-size: 0.8rem;">Weekend: 10am - 4pm</p>
+                    </div>
+                </div>
+             </div>
+
+            <div class="card" style="max-width: 100%; padding: 3rem;">
+                <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 2rem;">Send us a Message</h2>
+               
+                <form action="#" onsubmit="event.preventDefault();">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 1.5rem;">
+                         <div class="form-group" style="margin-bottom:0;">
+                            <label class="form-label" for="fname">Full Name</label>
+                            <input type="text" id="fname" class="form-input no-icon" placeholder="John Doe">
+                        </div>
+                         <div class="form-group" style="margin-bottom:0;">
+                            <label class="form-label" for="cemail">Email Address</label>
+                            <input type="email" id="cemail" class="form-input no-icon" placeholder="john@example.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="subject">Subject</label>
+                        <input type="text" id="subject" class="form-input no-icon" placeholder="How can we help?">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea id="message" class="form-input no-icon" rows="6" placeholder="Tell us more about your inquiry..." style="resize: vertical;"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="padding: 0.75rem 2.5rem;">
+                        <ion-icon name="send-outline" style="margin-right: 0.5rem;"></ion-icon>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+            <!-- Map placeholder using icon -->
+            <div style="text-center; margin-top: 4rem; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--secondary); opacity: 0.6;">
+                <ion-icon name="map-outline" style="font-size: 3rem; margin-bottom: 1rem;"></ion-icon>
+                <p>Interactive map will be displayed here</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon"><ion-icon name="school"></ion-icon></div>
+                        <span style="color: white;">LearnHub</span>
+                    </div>
+                    <p>Empowering learners worldwide with high quality courses taught by industry experts.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#" class="social-icon"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#" class="social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#" class="social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col"></div>
+
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="contact-item">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span>support@learnhub.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>123 Learning Street, Education City, EC 12345</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-bar">
+                <p>&copy; 2024 LearnHub. All rights reserved.</p>
+                <div class="flex gap-4">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

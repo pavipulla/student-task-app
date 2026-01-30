@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - LearnHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container flex items-center justify-between">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><ion-icon name="school"></ion-icon></div>
+                LearnHub
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="flex gap-4 items-center">
+                <a href="login.html" class="btn btn-outline" style="border:none; color:var(--text-main);">Login</a>
+                <a href="register.html" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main style="flex: 1;">
+        <!-- Hero Section -->
+        <section style="background: linear-gradient(to bottom, #F8F9FE, #EEF2FF); padding: 5rem 0 3rem; text-align: center;">
+            <div class="container">
+                <h1 style="font-size: 3.5rem; font-weight: 800; margin-bottom: 1.5rem; line-height: 1.2;">About <span class="text-highlight">LearnHub</span></h1>
+                <p style="color: var(--text-muted); max-width: 700px; margin: 0 auto; font-size: 1.25rem;">We're on a mission to make quality education accessible to everyone. Learn new skills, advance your career, and achieve your goals with our world-class courses.</p>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section style="background: white; padding: 3rem 0; border-bottom: 1px solid var(--border);">
+            <div class="container">
+                <div class="flex justify-between" style="text-align: center; flex-wrap: wrap; gap: 2rem;">
+                    <div style="flex: 1; min-width: 200px;">
+                        <h3 style="color: var(--primary); font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem;">50,000+</h3>
+                        <p style="color: var(--text-muted); font-weight: 500;">Students Enrolled</p>
+                    </div>
+                    <div style="flex: 1; min-width: 200px;">
+                        <h3 style="color: var(--primary); font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem;">200+</h3>
+                        <p style="color: var(--text-muted); font-weight: 500;">Expert Courses</p>
+                    </div>
+                    <div style="flex: 1; min-width: 200px;">
+                        <h3 style="color: var(--primary); font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem;">50+</h3>
+                        <p style="color: var(--text-muted); font-weight: 500;">Expert Instructors</p>
+                    </div>
+                    <div style="flex: 1; min-width: 200px;">
+                        <h3 style="color: var(--primary); font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem;">15,000+</h3>
+                        <p style="color: var(--text-muted); font-weight: 500;">Course Reviews</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Story Section -->
+        <section style="padding: 5rem 0;">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                    <div>
+                        <div style="color: var(--primary); font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 0.05em;">Our Story</div>
+                        <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1.5rem; line-height: 1.2;">Empowering Learners Since 2020</h2>
+                        <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 1.05rem;">LearnHub was founded with a simple yet powerful vision: to democratize education and make it accessible to anyone, anywhere in the world.</p>
+                        <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 1.05rem;">What started as a small collection of programming courses has grown into a comprehensive learning platform with over 200 courses covering current & emerging tech skills, taught by industry experts from companies like Google, Microsoft, and Amazon.</p>
+                        <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 1.05rem;">Today, we're proud to have helped over 50,000 students worldwide transform their careers and achieve their dreams.</p>
+                        <a href="#" class="btn btn-primary">Explore Courses</a>
+                    </div>
+                    <div style="position: relative;">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Students learning" style="border-radius: 1rem; box-shadow: var(--shadow-lg); width: 100%;">
+                        <div style="position: absolute; bottom: -20px; right: -20px; background: white; padding: 1.5rem; border-radius: 1rem; box-shadow: var(--shadow-lg); display: flex; align-items: center; gap: 1rem;">
+                            <div style="width: 50px; height: 50px; background: var(--primary); border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700;">4.8</div>
+                            <div>
+                                <div style="color: #FBBF24; display: flex; gap: 2px;">
+                                    <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                                </div>
+                                <div style="font-size: 0.9rem; color: var(--text-muted); margin-top: 0.25rem;">Average Rating</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section style="background: white; padding: 5rem 0;">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 4rem;">
+                    <div style="color: var(--primary); font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 0.05em;">Our Values</div>
+                    <h2 style="font-size: 2.5rem; font-weight: 700;">What Drives Us Forward</h2>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+                    <div style="padding: 2.5rem; border: 1px solid var(--border); border-radius: 1rem; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <div style="width: 64px; height: 64px; background: #EEF2FF; color: var(--primary); border-radius: 16px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem;">
+                            <ion-icon name="trophy-outline"></ion-icon>
+                        </div>
+                        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">Excellence</h3>
+                        <p style="color: var(--text-muted);">We strive for the highest quality in everything we do. From course content to student support.</p>
+                    </div>
+                    <div style="padding: 2.5rem; border: 1px solid var(--border); border-radius: 1rem; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <div style="width: 64px; height: 64px; background: #EEF2FF; color: var(--primary); border-radius: 16px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem;">
+                            <ion-icon name="bulb-outline"></ion-icon>
+                        </div>
+                        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">Innovation</h3>
+                        <p style="color: var(--text-muted);">We embrace new technologies and methodologies to provide the best learning experience.</p>
+                    </div>
+                    <div style="padding: 2.5rem; border: 1px solid var(--border); border-radius: 1rem; text-align: center; transition: transform 0.2s;" onmouseover="this.style.transform='translateY(-5px)'" onmouseout="this.style.transform='translateY(0)'">
+                        <div style="width: 64px; height: 64px; background: #EEF2FF; color: var(--primary); border-radius: 16px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2rem;">
+                            <ion-icon name="heart-outline"></ion-icon>
+                        </div>
+                        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem;">Accessibility</h3>
+                        <p style="color: var(--text-muted);">We believe quality education should be accessible to everyone, around the world.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section style="padding: 5rem 0;">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 4rem;">
+                    <div style="color: var(--primary); font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 0.05em;">Our Team</div>
+                    <h2 style="font-size: 2.5rem; font-weight: 700;">Meet the People Behind LearnHub</h2>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;">
+                    <!-- Team Member 1 -->
+                    <div class="text-center">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="John Smith" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 1rem; margin-bottom: 1.5rem;">
+                        <h3 style="font-weight: 700; font-size: 1.125rem; margin-bottom: 0.25rem;">John Smith</h3>
+                        <p style="color: var(--primary); font-size: 0.9rem;">CEO & Founder</p>
+                    </div>
+                     <!-- Team Member 2 -->
+                     <div class="text-center">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Sarah Johnson" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 1rem; margin-bottom: 1.5rem;">
+                        <h3 style="font-weight: 700; font-size: 1.125rem; margin-bottom: 0.25rem;">Sarah Johnson</h3>
+                        <p style="color: var(--primary); font-size: 0.9rem;">Head of Content</p>
+                    </div>
+                     <!-- Team Member 3 -->
+                     <div class="text-center">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Michael Chen" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 1rem; margin-bottom: 1.5rem;">
+                        <h3 style="font-weight: 700; font-size: 1.125rem; margin-bottom: 0.25rem;">Michael Chen</h3>
+                        <p style="color: var(--primary); font-size: 0.9rem;">CTO</p>
+                    </div>
+                     <!-- Team Member 4 -->
+                     <div class="text-center">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Emily Rodriguez" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 1rem; margin-bottom: 1.5rem;">
+                        <h3 style="font-weight: 700; font-size: 1.125rem; margin-bottom: 0.25rem;">Emily Rodriguez</h3>
+                        <p style="color: var(--primary); font-size: 0.9rem;">Head of Design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section style="background: white; padding: 5rem 0;">
+            <div class="container text-center">
+                <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">Ready to Start Learning?</h2>
+                <p style="color: var(--text-muted); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">Join our community of learners and start your journey to success today.</p>
+                <div class="flex gap-4 justify-center">
+                    <a href="register.html" class="btn btn-primary" style="padding: 1rem 2.5rem; font-size: 1.125rem;">Get Started</a>
+                    <a href="contact.html" class="btn btn-outline" style="padding: 1rem 2.5rem; font-size: 1.125rem; border: 1px solid var(--border);">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon"><ion-icon name="school"></ion-icon></div>
+                        <span style="color: white;">LearnHub</span>
+                    </div>
+                    <p>Empowering learners worldwide with high quality courses taught by industry experts.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#" class="social-icon"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#" class="social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#" class="social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col"></div>
+
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="contact-item">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span>support@learnhub.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>123 Learning Street, Education City, EC 12345</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-bar">
+                <p>&copy; 2024 LearnHub. All rights reserved.</p>
+                <div class="flex gap-4">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

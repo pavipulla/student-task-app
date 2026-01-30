@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - LearnHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Ionicons for icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container flex items-center justify-between">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><ion-icon name="school"></ion-icon></div>
+                LearnHub
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="flex gap-4 items-center">
+                <a href="login.html" class="btn btn-outline" style="border:none; color:var(--text-main);">Login</a>
+                <a href="register.html" class="btn btn-primary">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-center">
+        <div class="text-center" style="margin-bottom: 2rem;">
+            <div style="width: 48px; height: 48px; background: var(--primary); border-radius: 12px; color: white; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">
+                <ion-icon name="school"></ion-icon>
+            </div>
+            <h1 style="font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem;">Welcome Back</h1>
+            <p style="color: var(--text-muted);">Sign in to continue your learning journey</p>
+        </div>
+
+        <div class="card">
+            <form action="#" onsubmit="event.preventDefault();">
+                <div class="form-group">
+                    <label class="form-label" for="email">Email</label>
+                    <div class="input-wrapper">
+                        <ion-icon name="mail-outline" class="input-icon"></ion-icon>
+                        <input type="email" id="email" class="form-input" placeholder="you@example.com">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="flex justify-between items-center mb-2">
+                        <label class="form-label" for="password" style="margin-bottom:0;">Password</label>
+                        <a href="#" style="font-size: 0.875rem; color: var(--primary);">Forgot password?</a>
+                    </div>
+                    <div class="input-wrapper" style="margin-top: 0.5rem;">
+                        <ion-icon name="lock-closed-outline" class="input-icon"></ion-icon>
+                        <input type="password" id="password" class="form-input" placeholder="••••••••">
+                        <ion-icon name="eye-outline" class="password-toggle"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="form-group flex items-center gap-2">
+                    <input type="checkbox" id="remember">
+                    <label for="remember" style="font-size: 0.9rem; color: var(--text-main);">Remember me</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full">Sign In</button>
+
+                <p class="text-center" style="margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">
+                    Don't have an account? <a href="register.html" style="color: var(--primary); font-weight: 600;">Sign up for free</a>
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon"><ion-icon name="school"></ion-icon></div>
+                        <span style="color: white;">LearnHub</span>
+                    </div>
+                    <p>Empowering learners worldwide with high quality courses taught by industry experts.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#" class="social-icon"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#" class="social-icon"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="#" class="social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <!-- Spacer or another column? Image shows "Contact Us" as 4th col, "Quick Links" as 3rd? No image shows 4 cols.
+                         Wait, image shows "Quick Links", "Contact Us" (with icons). 
+                         Let's look at the image again.
+                         Col 1: Brand. Col 2: Quick Links. Col 3: ??? Col 4: Contact Us?
+                         Actually there's seemingly 3 main visual columns or 4.
+                         Let's stick to 2 middle ones being links and last one contact info.
+                    -->
+                </div>
+
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="contact-item">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <span>support@learnhub.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <span>123 Learning Street, Education City, EC 12345</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-bar">
+                <p>&copy; 2024 LearnHub. All rights reserved.</p>
+                <div class="flex gap-4">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
